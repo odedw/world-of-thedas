@@ -15,5 +15,12 @@ L.tileLayer('img/{z}/tile_{x}_{y}.jpg', {
 }).addTo(map);
 
 map.on('click', function(e) {
-    console.log(e.latlng.lat + "," + e.latlng.lng);
+    console.log('{nation: "", city: "", "zoom": '+map.getZoom()+', "latLng": L.latLng('+ e.latlng.lat+','+ e.latlng.lng+')}');
+});
+
+$('#search-input').autocomplete({
+    lookup: places,
+    onSelect: function (suggestion) {
+        map.setView(suggestion.data.latLng, suggestion.data.zoom);
+    }
 });
