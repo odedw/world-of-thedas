@@ -24,3 +24,21 @@ $('#search-input').autocomplete({
         map.setView(suggestion.data.latLng, suggestion.data.zoom);
     }
 });
+
+$('#search-input').autocomplete().setOptions({
+    formatResult: function (suggestion, currentValue) {
+        var htmlSafeString = suggestion.value
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;');
+
+        var pattern = '(' + currentValue.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&") + ')';
+
+        htmlSafeString = htmlSafeString.replace(new RegExp(pattern, 'gi'), '<strong>$1<\/strong>');
+        if (suggestion.data.nation != suggestion.value){
+            htmlSafeString += '<small class="nation"> '+suggestion.data.nation+'</small>';
+        }
+        return htmlSafeString;
+    }
+});
