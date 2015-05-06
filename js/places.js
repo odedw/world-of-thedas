@@ -28,6 +28,7 @@ var places = [
     {value: "Lake Celestine", data:{"nation": "Orlais", "zoom": 4, "latLng": L.latLng(-40.11168866559596,-65.302734375)}},
     {value: "Sundered Sea", data:{"zoom": 4, "latLng": L.latLng(-60.716197793577145,-130.693359375)}},
     {value: "Volca Sea", data:{"zoom": 4, "latLng": L.latLng(70.34831755984781,-157.939453125)}},
+    {value: "Minanter River", data:{"zoom": 4, "latLng": L.latLng(35.746512259918504,41.484375)}},
 
     //Seheron
     {value: "Seheron", data:{"nation":"Seheron","zoom": 4, "latLng": L.latLng(79.73428059335232,24.609375)}},
@@ -37,5 +38,38 @@ var places = [
     {value: "Qunandar", data:{"nation":"Par Vollen","zoom": 4, "latLng": L.latLng(83.28798543651806,93.42773437499999)}},
 
     //Rivain
+    {value: "Kont-arr", data:{"nation":"Rivain","zoom": 4, "latLng": L.latLng(78.09829559916763,114.873046875)}},
+    {value: "Seere", data:{"nation":"Rivain","zoom": 4, "latLng": L.latLng(79.56054626376367,127.08984375000001)}},
+    {value: "Daismuid", data:{"nation":"Rivain","zoom": 4, "latLng": L.latLng(68.366801093914,117.24609374999999)}},
+    {value: "Llomerynn", data:{"nation":"Rivain","zoom": 4, "latLng": L.latLng(53.067626642387374,125.68359374999999)}},
 
+    //Antiva
+    {value: "Ayesleigh", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(70.61261423801925,101.513671875)}},
+    {value: "Afsaana", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(68.43151284537514,103.35937499999999)}},
+    {value: "Treviso", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(66.44310650816469,92.10937499999999)}},
+    {value: "Antiva City", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(59.7563950493563,91.93359375)}},
+    {value: "Rialto", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(55.32914440840507,99.84374999999999)}},
+    {value: "Salle", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(53.4357192066942,106.69921875)}},
+    {value: "Bastion", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(48.63290858589532,106.69921875)}},
+    {value: "Ansburg", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(43.89789239125797,80.771484375)}},
+    {value: "Green Dales", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(47.57652571374621,67.060546875)}},
+    {value: "The Weyrs", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(53.067626642387374,82.001953125)}},
+    {value: "Seleny", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(58.90464570302001,71.279296875)}},
+    {value: "The Drylands", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(67.06743335108298,72.158203125)}},
+    {value: "Brynnlaw", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(72.97118902284586,73.30078125)}},
+    {value: "The White Spire", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(74.75274618925876,74.53125)}},
+    {value: "Arlathan Forest", data:{"nation":"Antiva","zoom": 4, "latLng": L.latLng(73.20131708476698,54.931640625)}},
+
+    //Free Marches
+    {value: "Wycome", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(41.57436130598913,105.29296874999999)}},
+    {value: "Hercinia", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(27.371767300523047,98.87695312499999)}},
+    {value: "Markham", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(24.28702686537645,77.783203125)}},
+    {value: "Ostwick", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(13.325484885597936,75.498046875)}},
+    {value: "Wildervale", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(23.88583769986199,25.224609375)}},
+    {value: "Vimmark Mountains", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(11.953349393643416,45.791015625)}},
+    {value: "Kirkwall", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(3.337953961416485,32.87109375)}},
+    {value: "Planasene Forest", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(-0.08789059053082422,15.468749999999998)}},
+    {value: "Starkhaven", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(35.17380831799959,48.33984375)}},
+    {value: "Tantervale", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(35.38904996691167,19.335937499999996)}},
+    {value: "Estwach", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(30.977609093348686,117.42187500000001)}},
 ];
