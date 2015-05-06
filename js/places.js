@@ -29,6 +29,7 @@ var places = [
     {value: "Sundered Sea", data:{"zoom": 4, "latLng": L.latLng(-60.716197793577145,-130.693359375)}},
     {value: "Volca Sea", data:{"zoom": 4, "latLng": L.latLng(70.34831755984781,-157.939453125)}},
     {value: "Minanter River", data:{"zoom": 4, "latLng": L.latLng(35.746512259918504,41.484375)}},
+    {value: "Ventosus Straits", data:{"zoom": 4, "latLng": L.latLng(76.98014914976217,10.72265625)}},
 
     //Seheron
     {value: "Seheron", data:{"nation":"Seheron","zoom": 4, "latLng": L.latLng(79.73428059335232,24.609375)}},
@@ -72,4 +73,34 @@ var places = [
     {value: "Starkhaven", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(35.17380831799959,48.33984375)}},
     {value: "Tantervale", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(35.38904996691167,19.335937499999996)}},
     {value: "Estwach", data:{"nation":"Free Marches","zoom": 4, "latLng": L.latLng(30.977609093348686,117.42187500000001)}},
+
+    //Tevinter Imperium
+    {value: "Qarinus", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(73.42842364106816,24.873046874999996)}},
+    {value: "Eyes of Nocen", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(75.93088543216642,14.94140625)}},
+    {value: "Carastes", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(71.41317683396566,8.96484375)}},
+    {value: "Neromenian", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(66.26685631430843,0.263671875)}},
+    {value: "Vyrantium", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(61.270232790000634,-12.568359375)}},
+    {value: "Marnus Pell", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(65.47650756256367,-32.51953125)}},
+    {value: "Aseriel", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(67.5085683629386,-34.013671875)}},
+    {value: "Minrathous", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(76.31035754301745,-27.59765625)}},
+    {value: "Valarian Fields", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(75.342281944273,-33.3984375)}},
+    {value: "The High Reaches", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(75.07300992968266,-41.923828125)}},
+    {value: "The Imperial Highway", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(51.01375465718821,-21.09375)}},
+    {value: "Val Dorma", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(63.39152174400882,-44.736328125)}},
+    {value: "Nessum", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(45.460130637921004,-45.615234375)}},
+    {value: "Caimen Brea", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(42.48830197960227,-43.33007812499999)}},
+    {value: "Trevis", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(39.30029918615029,-38.759765625)}},
+    {value: "Perivantium", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(49.89463439573421,14.677734375000002)}},
+    {value: "The Hundred Pillars", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(59.130863097255904,32.783203125)}},
+    {value: "Marothius", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(63.074865690586634,26.279296875)}},
+    {value: "The Silent Plains", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(40.04443758460859,-7.119140625)}},
+    {value: "Solas", data:{"nation":"Tevinter Imperium","zoom": 4, "latLng": L.latLng(47.69497434186282,-2.724609375)}},
+
+    //Nevarra
+    {value: "Cumberland", data:{"nation":"Nevarra","zoom": 4, "latLng": L.latLng(2.5479878714713706,-9.4921875)}},
+    {value: "Hasmal", data:{"nation":"Nevarra","zoom": 4, "latLng": L.latLng(36.87962060502676,13.095703125)}},
+    {value: "Hunter Fell", data:{"nation":"Nevarra","zoom": 4, "latLng": L.latLng(25.958044673317843,-32.34375)}},
+    {value: "Nevarra City", data:{"nation":"Nevarra","zoom": 4, "latLng": L.latLng(25.085598897064777,-17.666015625)}},
+    {value: "Perendale", data:{"nation":"Nevarra","zoom": 4, "latLng": L.latLng(35.746512259918504,-66.70898437499999)}},
+    {value: "The Fields of Ghislain", data:{"nation":"Nevarra","zoom": 4, "latLng": L.latLng(17.560246503294913,-39.7265625)}},
 ];
