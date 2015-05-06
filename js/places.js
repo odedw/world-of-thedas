@@ -13,6 +13,7 @@ var places = [
     {value: "Rivain", data:{"zoom": 4, "latLng": L.latLng(74.16408546675687,118.38867187500001)}},
     {value: "Par Vollen", data:{"zoom": 4, "latLng": L.latLng(83.46037681466397,116.19140625)}},
     {value: "Seheron", data:{"zoom": 4, "latLng": L.latLng(80.04286374779889,0.87890625)}},
+    {value: "Kal-Sharok", data:{"zoom": 4, "latLng": L.latLng(45.460130637921004,-88.9453125)}},
 
     //seas & lakes
     {value: "Colean Sea", data:{"zoom": 4, "latLng": L.latLng(81.65968514918798,-48.69140625)}},
@@ -103,4 +104,24 @@ var places = [
     {value: "Nevarra City", data:{"nation":"Nevarra","zoom": 4, "latLng": L.latLng(25.085598897064777,-17.666015625)}},
     {value: "Perendale", data:{"nation":"Nevarra","zoom": 4, "latLng": L.latLng(35.746512259918504,-66.70898437499999)}},
     {value: "The Fields of Ghislain", data:{"nation":"Nevarra","zoom": 4, "latLng": L.latLng(17.560246503294913,-39.7265625)}},
+
+    //Anderfels
+    {value: "Hossberg ", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(69.06856318696033,-77.95898437499999)}},
+    {value: "Kassel", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(74.86788912917916,-71.015625)}},
+    {value: "Laysh", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(68.942606818121,-146.865234375)}},
+    {value: "Nordbotten", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(63.39152174400882,-110.91796875)}},
+    {value: "Tallo", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(77.23507365492472,-58.62304687499999)}},
+    {value: "Sundarin", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(83.31873282163234,-61.17187499999999)}},
+    {value: "Tallo's Eye", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(61.312451574838214,-58.88671875)}},
+    {value: "Qundalon", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(35.31736632923788,-97.119140625)}},
+    {value: "Weisshaupt", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(61.48075950007598,-58.62304687499999)}},
+    {value: "The Blasted Hills", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(36.31512514748051,-98.26171875)}},
+    {value: "Broken Tooth", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(60.84491057364915,-58.095703125)}},
+    {value: "Feral Fjords", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(77.19617635994676,-153.72070312499997)}},
+    {value: "Hunterhorn Mountains", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(47.39834920035926,-119.88281249999999)}},
+    {value: "The Lattenfluss", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(70.90226826757711,-79.365234375)}},
+    {value: "Merdaine", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(62.30879369102805,-96.94335937499999)}},
+    {value: "The Wandering Hills", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(75.95223506623554,-108.896484375)}},
+    {value: "The Weathered Pass", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(79.02171239525758,-118.21289062499999)}},
+    {value: "The Donarks", data:{"nation":"Anderfels","zoom": 4, "latLng": L.latLng(83.05815960186747,-121.46484375)}},
 ];
