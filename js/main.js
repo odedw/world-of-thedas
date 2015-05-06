@@ -18,11 +18,16 @@ map.on('click', function(e) {
     console.log('{nation: "", city: "", "zoom": '+map.getZoom()+', "latLng": L.latLng('+ e.latlng.lat+','+ e.latlng.lng+')}');
 });
 
+var marker;
 $('#search-input').autocomplete({
     lookup: places,
     onSelect: function (suggestion) {
         map.setView(suggestion.data.latLng, suggestion.data.zoom);
-    }
+        marker = marker || L.marker([0,0]).addTo(map);
+        marker.setLatLng(suggestion.data.latLng);
+        marker.update();
+    },
+    triggerSelectOnValidInput: false
 });
 
 $('#search-input').autocomplete().setOptions({
