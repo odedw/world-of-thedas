@@ -3,17 +3,17 @@
  */
 var places = [
     //nations
-    {value: "Anderfels", data:{"zoom": 4, "latLng": L.latLng(69.09993967425089,-97.55859375)}},
-    {value: "Tevinter Imperium", data:{"zoom": 4, "latLng": L.latLng(57.468589192089325,-9.580078125)}},
-    {value: "Nevarra", data:{"zoom": 4, "latLng": L.latLng(32.175612478499325,-11.42578125)}},
-    {value: "Orlais", data:{"zoom": 4, "latLng": L.latLng(-20.385825381874263,-71.455078125)}},
-    {value: "Ferelden", data:{"zoom": 4, "latLng": L.latLng(-33.21111647241684,48.69140625)}},
-    {value: "Free Marches", data:{"zoom": 4, "latLng": L.latLng(29.916852233070173,59.4140625)}},
-    {value: "Antiva", data:{"zoom": 4, "latLng": L.latLng(61.85614879566797,78.837890625)}},
-    {value: "Rivain", data:{"zoom": 4, "latLng": L.latLng(74.16408546675687,118.38867187500001)}},
-    {value: "Par Vollen", data:{"zoom": 4, "latLng": L.latLng(83.46037681466397,116.19140625)}},
-    {value: "Seheron", data:{"zoom": 4, "latLng": L.latLng(80.04286374779889,0.87890625)}},
-    {value: "Kal-Sharok", data:{"zoom": 4, "latLng": L.latLng(45.460130637921004,-88.9453125)}},
+    {value: "Anderfels", data:{"zoom": nationZoom, "latLng": L.latLng(69.09993967425089,-97.55859375)}},
+    {value: "Tevinter Imperium", data:{"zoom": nationZoom, "latLng": L.latLng(57.468589192089325,-9.580078125)}},
+    {value: "Nevarra", data:{"zoom": nationZoom, "latLng": L.latLng(32.175612478499325,-11.42578125)}},
+    {value: "Orlais", data:{"zoom": nationZoom, "latLng": L.latLng(-20.385825381874263,-71.455078125)}},
+    {value: "Ferelden", data:{"zoom": nationZoom, "latLng": L.latLng(-33.21111647241684,48.69140625)}},
+    {value: "Free Marches", data:{"zoom": nationZoom, "latLng": L.latLng(29.916852233070173,59.4140625)}},
+    {value: "Antiva", data:{"zoom": nationZoom, "latLng": L.latLng(61.85614879566797,78.837890625)}},
+    {value: "Rivain", data:{"zoom": nationZoom, "latLng": L.latLng(74.16408546675687,118.38867187500001)}},
+    {value: "Par Vollen", data:{"zoom": nationZoom, "latLng": L.latLng(83.46037681466397,116.19140625)}},
+    {value: "Seheron", data:{"zoom": nationZoom, "latLng": L.latLng(80.04286374779889,0.87890625)}},
+    {value: "Kal-Sharok", data:{"zoom": nationZoom, "latLng": L.latLng(45.460130637921004,-88.9453125)}},
 
     //seas & lakes
     {value: "Colean Sea", data:{"zoom": 4, "latLng": L.latLng(81.65968514918798,-48.69140625)}},
