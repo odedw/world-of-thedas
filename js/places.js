@@ -184,4 +184,6 @@ var places = [
     {value: "Storm Coast", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-12.897489183755892,33.662109375)}},
     {value: "Gherlen's Pass", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-28.30438068296277,15.205078125)}},
     {value: "Brandel's Reach", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(5.178482088522876,83.671875)}},
+    {value: "Vigil's Keep", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-12.297068292853817,75.41015624999999)}},
+    {value: "Kal'Hirol", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-15.114552871944102,62.666015625)}},
 ];
