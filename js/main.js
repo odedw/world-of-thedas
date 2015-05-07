@@ -41,7 +41,7 @@ $('#search-input').autocomplete().setOptions({
         var pattern = '(' + currentValue.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&") + ')';
 
         htmlSafeString = htmlSafeString.replace(new RegExp(pattern, 'gi'), '<strong>$1<\/strong>');
-        if (suggestion.data.nation != suggestion.value){
+        if (suggestion.data.nation){
             htmlSafeString += '<small class="nation"> '+suggestion.data.nation+'</small>';
         }
         return htmlSafeString;
