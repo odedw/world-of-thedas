@@ -13,16 +13,15 @@ L.tileLayer('img/{z}/tile_{x}_{y}.jpg', {
     bounds:bounds
 //    tileSize:668
 }).addTo(map);
-var poiNation = "Kal-Sharok";
-var poi = [
-    "",
-
-];
-var poiIndex = 0;
-map.on('click', function(e) {
-    console.log('{value: "'+poi[poiIndex]+'", data:{"nation":"'+poiNation+'","zoom": '+map.getZoom()+', "latLng": L.latLng('+ e.latlng.lat+','+ e.latlng.lng+')}},');
-    poiIndex++;
-});
+//var poiNation = "Orlais";
+//var poi = [
+//        "Gherlen's Pass",
+//];
+//var poiIndex = 0;
+//map.on('click', function(e) {
+//    console.log('{value: "'+poi[poiIndex]+'", data:{"nation":"'+poiNation+'","zoom": '+map.getZoom()+', "latLng": L.latLng('+ e.latlng.lat+','+ e.latlng.lng+')}},');
+//    poiIndex++;
+//});
 var marker;
 $('#search-input').autocomplete({
     lookup: places,
