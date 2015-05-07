@@ -1,8 +1,8 @@
 /**
  * Created by oded on 05/05/2015.
  */
-var nationZoom = window.screen.availWidth > 480 ? 4 : 3;
-var initialZoom = window.screen.availWidth > 480 ? 3 : 2;
+var nationZoom = window.screen.availWidth > 650 ? 4 : 3;
+var initialZoom = window.screen.availWidth > 650 ? 3 : 2;
 
 var places = [
     //nations
