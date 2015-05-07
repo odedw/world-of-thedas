@@ -1,6 +1,3 @@
-var nationZoom = window.screen.availWidth > 480 ? 4 : 3;
-var initialZoom = window.screen.availWidth > 480 ? 3 : 2;
-
 // create a map in the "map" div, set the view to a given place and zoom
 var southWest = L.latLng(-66,-179.9),
     northEast = L.latLng(85, 179.9),
