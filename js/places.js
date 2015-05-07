@@ -1,6 +1,9 @@
 /**
  * Created by oded on 05/05/2015.
  */
+var nationZoom = window.screen.availWidth > 480 ? 4 : 3;
+var initialZoom = window.screen.availWidth > 480 ? 3 : 2;
+
 var places = [
     //nations
     {value: "Anderfels", data:{"zoom": nationZoom, "latLng": L.latLng(69.09993967425089,-97.55859375)}},
