@@ -1,8 +1,11 @@
+var nationZoom = window.screen.availWidth > 480 ? 4 : 3;
+var initialZoom = window.screen.availWidth > 480 ? 3 : 2;
+
 // create a map in the "map" div, set the view to a given place and zoom
 var southWest = L.latLng(-66,-179.9),
     northEast = L.latLng(85, 179.9),
     bounds = L.latLngBounds(southWest, northEast);
-var map = L.map('map-canvas', {maxBounds:bounds, maxZoom:5, minZoom:1}).setView([0, 0], 3);
+var map = L.map('map-canvas', {maxBounds:bounds, maxZoom:5, minZoom:1}).setView([0, 0], initialZoom);
 
 // add an OpenStreetMap tile layer
 L.tileLayer('img/{z}/tile_{x}_{y}.jpg', {
@@ -47,3 +50,5 @@ $('#search-input').autocomplete().setOptions({
         return htmlSafeString;
     }
 });
+
+
