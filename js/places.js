@@ -18,6 +18,7 @@ var places = [
     {value: "Seheron", data:{"zoom": nationZoom, "latLng": L.latLng(80.04286374779889,0.87890625)}},
     {value: "Kal-Sharok", data:{"zoom": nationZoom, "latLng": L.latLng(45.460130637921004,-88.9453125)}},
     {value: "Orzammar", data:{"zoom": nationZoom, "latLng": L.latLng(-20.550508894195627,16.611328125)}},
+    {value: "Skyhold", data:{"zoom": 4, "latLng": L.latLng(-31.653381399663985,-1.494140625)}},
 
     //seas & lakes
     {value: "Colean Sea", data:{"zoom": 4, "latLng": L.latLng(81.65968514918798,-48.69140625)}},
@@ -159,6 +160,11 @@ var places = [
     {value: "The Tirashan", data:{"nation":"Orlais","zoom": 4, "latLng": L.latLng(11.695272733029414,-130.693359375)}},
     {value: "Urthemiel Plateau", data:{"nation":"Orlais","zoom": 4, "latLng": L.latLng(-11.43695521614319,-125.24414062499999)}},
     {value: "Nahashin Marshes", data:{"nation":"Orlais","zoom": 4, "latLng": L.latLng(-9.88227549342994,-88.857421875)}},
+    {value: "Emprise Du Lion", data:{"nation":"Orlais","zoom": 4, "latLng": L.latLng(-37.020098201368114,-15.8203125)}},
+    {value: "Exalted Plains", data:{"nation":"Orlais","zoom": 4, "latLng": L.latLng(-41.70572851523751,-41.572265625)}},
+    {value: "Temple of Dirthamen", data:{"nation":"Orlais","zoom": 4, "latLng": L.latLng(-9.88227549342994,-24.43359375)}},
+    {value: "The Emerald Graves", data:{"nation":"Orlais","zoom": 4, "latLng": L.latLng(-53.2257684357902,-24.609375)}},
+    {value: "Cradle of Sulevin", data:{"nation":"Orlais","zoom": 4, "latLng": L.latLng(-57.08851532788649,-20.302734375)}},
 
     //Ferelden
     {value: "Denerim", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-21.69826549685252,88.41796875)}},
@@ -187,4 +193,5 @@ var places = [
     {value: "Kal'Hirol", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-15.114552871944102,62.666015625)}},
     {value: "Honnleath", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-54.87660665410869,20.302734375)}},
     {value: "Soldier's Peak", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-5.090944175033373,64.599609375)}},
+    {value: "Caer Ostwin", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-22.998851594142913,61.61132812500001)}}
 ];
