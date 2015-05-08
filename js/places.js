@@ -168,7 +168,6 @@ var places = [
     {value: "Highever", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-4.214943141390639,50.80078125)}},
     {value: "Redcliffe", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-45.02695045318544,26.103515625)}},
     {value: "Haven", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-34.95799531086791,8.876953125)}},
-    {value: "Honnleath", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-32.9164853473144,54.4921875)}},
     {value: "Lothering", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-39.30029918615028,46.05468749999999)}},
     {value: "Fort Drakon", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-22.512556954051437,87.451171875)}},
     {value: "Ostagar", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-50.847572953653874,51.591796875)}},
@@ -186,4 +185,6 @@ var places = [
     {value: "Brandel's Reach", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(5.178482088522876,83.671875)}},
     {value: "Vigil's Keep", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-12.297068292853817,75.41015624999999)}},
     {value: "Kal'Hirol", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-15.114552871944102,62.666015625)}},
+    {value: "Honnleath", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-54.87660665410869,20.302734375)}},
+    {value: "Soldier's Peak", data:{"nation":"Ferelden","zoom": 4, "latLng": L.latLng(-5.090944175033373,64.599609375)}},
 ];
